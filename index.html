@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!--FONTS-->	
+	<link href="https://fonts.googleapis.com/css?family=Play|Poiret+One|Walter+Turncoat" rel="stylesheet" />
+	
+	<!--MY STYLE-->
+	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+	
+<!--LIGHTBOX STUFF-->
+
+		<link href="assets/css/lightbox.css" rel="stylesheet" type="text/css" />
+
+<!--SMOOTH SCROLL JS-->
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+        <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('ul.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+                    /*
+                    if you want to use one of the easing effects:
+                    $('html, body').stop().animate({
+                        scrollLeft: $($anchor.attr('href')).offset().left
+                    }, 1500,'easeInOutExpo');
+                     */
+                    $('html, body').stop().animate({
+                        scrollLeft: $($anchor.attr('href')).offset().left
+                    }, 1000);
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+
+
+
+
+
+	<!--TAB TITLE-->
+	<title>SPACE WAAAAA</title>
+
+</head>
+
+<body>
+
+	<h1>Mars</h1>
+	<div id="page-wrap">
+
+		<nav>
+			<ul class="nav">
+				<li>
+					<a href="#post1-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/123.png" class="icon left" />
+						<div class="left nav-text">
+							First Facts
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post2-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/name.png" class="icon left" />
+						<div class="left nav-text">
+						Name
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post3-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/clouds.png" class="icon left" />
+						<div class="left nav-text">
+						Climate
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post4-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/moons.png" class="icon left" />
+						<div class="left nav-text">
+						Moons
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post5-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/rover.png" class="icon left" />
+						<div class="left nav-text">
+						Rover
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post6-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/olympus.png" class="icon left" />
+						<div class="left nav-text">
+						Olympus Mons
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#post7-anchor" class="smoothScroll hvr-bob">
+						<img src="assets/images/nav-icons/water.png" class="icon left" />
+						<div class="left nav-text">
+						Water
+						</div>
+					</a>
+				</li>
+
+			</ul>
+		</nav>
+
+		<div id="curiousity" class="rover-animation">
+			<img src="assets/images/rover/rover.png" height="400px" />
+		</div><!--ends div curiousity-->
+
+
+
+<!-- *********************** START EXPLORING MARS HERE *********************** -->
+		<div class="post" id="start-anchor">
+			<h2 class="brown mars">Mars</h2>
+
+			<div id="roverspeech-start">
+				<p class="rovervoice big">Hi there!</p>
+				<p class="rovervoice">I'm Curiousity, the Mars rover. Let me show you around! Choose your topic from the menu.</p>
+			</div><!--ends div rover-speech-->
+
+		</div><!--ends start section-->
+
+
+<!-- *********************** FIRST FACTS *********************** -->
+		<div class="post" id="post1-anchor">
+			<h2 class="brown">First Facts</h2>
+			<div class="content">
+			
+
+			<div id="roverspeech">
+				<p class="rovervoice big">Time for the basics!</p>
+				<p class="rovervoice">Hmmm I wonder what would happen if you hover your mouse over these rocks.</p>
+			</div><!--ends div rover-speech-->
+
+<!--ROCK ONE-->
+				<div id="f1_container" class="r1-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r1.png"/>
+						</div>
+						<div class="back face r1-bg">
+							<div class="r1-text">
+								<p>Mars is the </p>
+								<p class="accent">4th</p>
+								<p>planet from the sun.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!--ROCK TWO-->
+				<div id="f1_container" class="r2-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r2.png"/>
+						</div>
+						<div class="back face r2-bg">
+							<div class="r2-text">
+								<p class="accent">1 day</p>
+								<p>on Mars lasts</br>1 Earth day + 40 minutes</p>
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK THREE-->
+				<div id="f1_container" class="r3-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r3.png"/>
+						</div>
+						<div class="back face r3-bg">
+							<div class="r3-text">
+								<p>Mars is the</p>
+								<p class="accent">2nd</p>
+								<p>smallest planet in our solar system</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!--ends content-->
+		</div><!--ends post 1-->
+		
+<!-- *********************** NAME *********************** -->
+
+		<div class="post" id="post2-anchor">
+			<h2 class="brown">Name</h2>
+			<div class="content">
+				
+			<div id="roverspeech">
+				<p class="rovervoice big">What's in a name?</p>
+				<p class="rovervoice">Many ancient cultures saw mars in the night sky and named it after its reddish color.</p>
+			</div><!--ends div rover-speech-->
+<!--ROCK FIVE-->
+				<div id="f1_container" class="r5-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r5.png"/>
+						</div>
+						<div class="back face r5-bg">
+							<div class="r5-text">
+								<p>This planet is named after the Roman God of War</p>
+								<p class="accent">Mars</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK FOUR-->
+				<div id="f1_container" class="r4-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r4.png"/>
+						</div>
+						<div class="back face r4-bg">
+							<div class="r4-text">
+								<p>Mars was first named</p>
+								<p class="accent">Ares</p>
+								<p>after the Greek God of War because of its blood-like color</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK SIX-->
+				<div id="f1_container" class="r6-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r6.png"/>
+						</div>
+						<div class="back face r6-bg">
+							<div class="r6-text">
+								<p>Egyptians called it "Her Desher" meaning</p>
+								<p class="accent">The Red One</p>
+								<br /><br />
+								<p>In Chinese,</p>
+								<p class="accent">The Fire Star</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!--ends content-->
+		</div><!--ends post 2-->
+
+<!-- *********************** CLIMATE *********************** -->
+
+		
+		<div class="post" id="post3-anchor">
+			<h2 class="brown">Climate</h2>
+			<div class="content">
+
+			<div id="roverspeech">
+				<p class="rovervoice big">Weather Report</p>
+				<p class="rovervoice">Cold and cloudy with a certainty of dust storms.</p>
+			</div><!--ends div rover-speech-->
+
+
+<!--ROCK SEVEN-->
+				<div id="f1_container" class="r7-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r7.png"/>
+						</div>
+						<div class="back face r7-bg">
+							<div class="r7-text">
+								<p>Mars is colder than Earth because it's farther from the sun. The average temperature is</p>
+								<br />
+								<p class="accent">-80&deg; F</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK EIGHT-->
+				<div id="f1_container" class="r8-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r8.png"/>
+						</div>
+						<div class="back face r8-bg">
+							<div class="r8-text">
+								<p class="accent">Red Planet</p>
+								<br />
+								<p>The surface of Mars is mostly comprised of iron-rich minerals. What you see is ACTUALLY RUST! Iron rusts when exposed to water and oxygen, causing the rusty-red appearance of Mars.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK NINE-->
+				<div id="f1_container" class="r9-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r9.png"/>
+						</div>
+						<div class="back face r9-bg">
+							<div class="r9-text">
+								<p>Mars has weather similar to Earth in that it can have clouds, wind, and snow.</p>
+								<p>Yet, the atmosphere here is too thin to support life.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!--ends content-->
+		</div><!--ends post 3-->
+		
+
+<!-- *********************** MOONS *********************** -->
+
+
+		<div class="post" id="post4-anchor">
+			<h2 class="brown">Moons</h2>
+			<div class="content">
+
+			<div id="roverspeech">
+				<p class="rovervoice big">Two moons</p>
+				<p class="rovervoice">A moon is any celestial body orbiting a planet, like a natural satellite.</p>
+			</div><!--ends div rover-speech-->
+
+<!--ROCK TEN-->
+				<div id="f1_container" class="r10-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r10.png"/>
+						</div>
+						<div class="back face r10-bg">
+							<div class="r10-text">
+								<p class="left">Mars has</p>
+								<p class="accent left up20">2</p>
+								<p class="left">orbiting moons:</p>
+								<br /><br />
+								<p class="accent">Phobos</p>
+								 <p>& </p>
+								 <p class="accent">Deimos</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK ELEVEN-->
+				<div id="f1_container" class="r11-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r11.png"/>
+						</div>
+						<div class="back face r11-bg">
+							<div class="r11-text">
+								
+								<p>Phobos</p>
+								<img src="assets/images/photos/phobos.png" />
+								<p class="textcenter">13.8 miles across</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK TWELVE-->
+				<div id="f1_container" class="r12-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r12.png"/>
+						</div>
+						<div class="back face r12-bg">
+							<div class="r12-text">
+								
+								<p>Deimos</p><br />
+								<img src="assets/images/photos/deimos.png" />
+								<br />
+								<p class="textcenter">7.8 miles across</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--ends content-->
+		</div><!--ends post 4 | moons-->
+
+<!-- *********************** ROVER *********************** -->
+
+
+		<div class="post" id="post5-anchor">
+			<h2 class="brown">Rover</h2>
+			<div class="content">
+
+			<div id="roverspeech">
+				<p class="rovervoice big">Who me?</p>
+				<p class="rovervoice">I do all sorts of work here, but my favorite way to pass the time is using my laser! </p>
+			</div><!--ends div rover-speech-->
+
+<!--ROCK 13-->
+				<div id="f1_container" class="r13-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r1.png"/>
+						</div>
+						<div class="back face r7-bg">
+							<div class="r13-text">
+								<p>Curiousity was launched in 2011. It’s about the size of a car, and weighs almost 2,000 lbs.
+								</p>
+								<br />
+								<p>Its primary mission is to find out if Mars could have supported alien microbial life. 
+								</p>
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK 14-->
+				<div id="f1_container" class="r14-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r3.png"/>
+						</div>
+						<div class="back face r6-bg">
+							<div class="r14-text">
+								<p class="accent">Hand</p>
+								<br />
+								<p>A drill on Curiousity's hand grinds rock samples into a powder, then pours the samples into its body for analysis. Instruments inside the body identify what the samples are made of.</p>
+								<p>Also on the hand is a brush to remove dust, a soil scoop, a camera for close-up views, and two sample analysis tools:
+								</p><br />
+								<p>MAHLI - Mars Hand Lens Imager for analyzing rock</p><br />
+								<p>APXS - Alpha Particle X-Ray Spectrometer for chemical measurements</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK 15-->
+				<div id="f1_container" class="r15-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r4.png"/>
+						</div>
+						<div class="back face r11-bg">
+							<div class="r15-text">
+								
+								<p class="accent">7 cameras</p>
+								<p>are equipped to Curiousity's mast and head.</p>
+								<br />
+								<p>The ChemCam on the rover's "forehead"</p>
+								<p class="accent">fires a laser</p>
+								<p>at rocks and soil from a distance to analyze the composition of the material it just vaporized.</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div><!--ends content-->
+		</div><!--ends post 5 | rover-->
+	
+	<!-- *********************** OLYMPUS MONS *********************** -->
+
+
+		<div class="post" id="post6-anchor">
+			<h2 class="brown olympus">Olympus Mons</h2>
+			<div class="content">
+				
+			<div id="roverspeech">
+				<p class="rovervoice big">The shield volcano</p>
+				<p class="rovervoice">Built almost entirely from fluid magma flows, its lava flows far and wide.</p>
+			</div><!--ends div rover-speech-->
+
+<!--ROCK 16-->
+				<div id="f1_container" class="r16-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r8.png"/>
+						</div>
+						<div class="back face r16-bg">
+							<div class="r16-text">
+								<p>This is the largest</p>
+								<p class="accent">volcano</p>
+								<p>in the solar system and it is still active.</p><br />
+								<p>Lava flows for a long distance before hardening, and eruptions are frequent.</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK 17-->
+				<div id="f1_container" class="r17-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r3.png"/>
+						</div>
+						<div class="back face r18-bg">
+							<div class="r17-text">
+								<p>Olympus is the size of Arizona.</p><br />
+								<img src="assets/images/photos/olympus-az.jpg" width="290px" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK 18-->
+				<div id="f1_container" class="r18-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r2.png"/>
+						</div>
+						<div class="back face r4-bg">
+							<div class="r8-text">
+								<p>Olympus Mons is about 100 times larger than that of Mauna Loa, Earth's largest volcano in Hawaii.</p><br />
+								<p>In fact, the entire chain of Hawaiian islands (from Kauai to Hawaii) would fit inside Olympus Mons!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div><!--ends content-->
+		</div><!--ends post 6 | olympus-->
+
+
+
+	<!-- *********************** WATER *********************** -->
+
+
+		<div class="post" id="post7-anchor">
+			<h2 class="brown">Water</h2>
+			<div class="content">
+
+				<div id="roverspeech">
+				<p class="rovervoice big">Not a drop to spare</p>
+				<p class="rovervoice">My primary mission here is to find out if mars can support life, or if it ever did in the past.</p>
+			</div><!--ends div rover-speech-->
+
+<!--ROCK 19-->
+				<div id="f1_container" class="r19-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r10.png"/>
+						</div>
+						<div class="back face r19-bg">
+							<div class="r19-text">
+								
+								<p class="accent">Evidence</p>
+								<p>Canyons, layered sediment, frozen ice caps, frozen water beneath the surface, hot springs, sustained precipitation, rocks showing exposure to water, and ancient stream beds.</p><br />
+								<p>With a thin atmosphere, and low gravity, the water has all but evaporated.</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+<!--ROCK 20-->
+				<div id="f1_container" class="r20-back left">
+					<div id="f1_card" >
+						<div class="front face">
+							<img src="assets/images/rocks/r8.png"/>
+						</div>
+						<div class="back face r20-bg">
+							<div class="r20-text">
+								<p class="accent">Closer Look</p>
+								<p>Dark streaks of salty water appear on the surface of Mars seasonally. <br /> <br />Click the image to take a closer look.</p><br />
+								
+							<a href="assets/images/photos/rsl-streaks-lg.png" data-lightbox="set-1" data-title="The dark, narrow streaks, called recurring slope lineae (RSL), appear and disappear seasonally. RSL indicate that liquid water flows there today. It is likely comprised of water pulled from the planet’s atmosphere.">
+								<img class="olympus-img" src="assets/images/photos/rsl-streaks-sm.png"/>
+							</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+<!--ROCK 21-->
+				<div id="f1_container" class="r21-back left">
+					<div id="f1_card">
+						<div class="front face">
+							<img src="assets/images/rocks/r5.png"/>
+						</div>
+						<div class="back face r21-bg">
+							<div class="r21-text">
+								<p>Curiousity rolled through an ancient stream bed shortly after touching down in August 2012, and it has examined a number of rocks that were exposed to liquid water billions of years ago.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<div id="backtostartbutton">
+	<a href="">
+		<img src="assets/images/nav-icons/backtostart.png" height="90px" />
+	</a>
+</div>
+			</div><!--ends content-->
+		</div><!--ends post 7 | water-->
+	</div>
+
+	<!--LIGHTBOXXXXXXX-->
+	<script src="assets/js/lightbox-plus-jquery.js"></script>
+
+
+	<!--HORIZONTAL SCROLL JAVASCRIPT-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="assets/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+
+
+</body>
+
+</html>
