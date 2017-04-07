@@ -19,7 +19,7 @@
 .lightgrey {color: #EAEAEA;}
 .lightgrey {color: #EAEAEA;}
 p.accent {color: #232223;
-          font-size: 80px; 
+          font-size: 80px;
           font-weight: bold; padding: 20px 0;}
 
 .blue {background-color: blue;}
@@ -28,8 +28,8 @@ p.accent {color: #232223;
 	/*	BEHAVIORS
 	================================================== */
 * {
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 .left {float: left;}
 .right {float: right;}
@@ -47,7 +47,7 @@ p {}
 h1 {visibility: hidden;}
 h2 {font-family: "Poiret One", sans-serif; font-size: 250px;
     text-transform: uppercase; font-weight: 300;
-		letter-spacing: -1px; color: #ccc; 
+		letter-spacing: -1px; color: #ccc;
     position: relative; bottom: 500px;
     text-align: right;
     padding-right: 40px;}
@@ -75,10 +75,10 @@ h2.mars {text-align: center;}
 /*====== BODY============*/
 
 
-body { 
+body {
   font-family: 'Play', sans-serif;
   font-size: 22px; line-height: 30px; margin: 20px;
-  color: #eaeaea; 
+  color: #eaeaea;
   padding: 0px;
   background: url("../images/bkgd-landscape-sm.jpg") repeat-x scroll ;
   max-height: 90%;
@@ -92,8 +92,8 @@ body {
 /*====== NAVIGATION ============*/
 
 nav {
-    font-style: normal; 
-    list-style-type: none; 
+    font-style: normal;
+    list-style-type: none;
     background-color: ;
     letter-spacing: 1px;
     float: left;
@@ -115,7 +115,7 @@ nav {
 
 nav li a {
 
-    margin: auto; 
+    margin: auto;
     text-decoration: none;
 
   }
@@ -125,21 +125,21 @@ nav li a {
 }
 
 .nav-text {
-  padding-top: 10px; 
+  padding-top: 10px;
   padding-left: 15px;
-    color: #fff; 
+    color: #fff;
   visibility: visible;
 }
 
 nav li a:hover .nav-text, nav li a.current .nav-text{
-  color: #fff; 
+  color: #fff;
   visibility: visible;
  }
 
 
 
  /* Bob */
-@-webkit-keyframes hvr-bob {0% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } 50% {-webkit-transform: translateY(-4px); transform: translateY(-4px); } 100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @keyframes hvr-bob {0% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } 50% {-webkit-transform: translateY(-4px); transform: translateY(-4px); } 100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @-webkit-keyframes hvr-bob-float {100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @keyframes hvr-bob-float {100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } .hvr-bob {display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px transparent; } 
+@-webkit-keyframes hvr-bob {0% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } 50% {-webkit-transform: translateY(-4px); transform: translateY(-4px); } 100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @keyframes hvr-bob {0% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } 50% {-webkit-transform: translateY(-4px); transform: translateY(-4px); } 100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @-webkit-keyframes hvr-bob-float {100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } @keyframes hvr-bob-float {100% {-webkit-transform: translateY(-8px); transform: translateY(-8px); } } .hvr-bob {display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px transparent; }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {-webkit-animation-name: hvr-bob-float, hvr-bob; animation-name: hvr-bob-float, hvr-bob; -webkit-animation-duration: .3s, 1.5s; animation-duration: .3s, 1.5s; -webkit-animation-delay: 0s, .3s; animation-delay: 0s, .3s; -webkit-animation-timing-function: ease-out, ease-in-out; animation-timing-function: ease-out, ease-in-out; -webkit-animation-iteration-count: 1, infinite; animation-iteration-count: 1, infinite; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-direction: normal, alternate; animation-direction: normal, alternate; }
 
 
@@ -166,8 +166,8 @@ z-index: 2;}
   100% {transform: translateY(0px) rotateZ(-2deg);}
 
 }
-.rover-animation {animation-duration: 3s; 
-  animation-delay: 0s; animation-timing-function: ease-in-out; 
+.rover-animation {animation-duration: 3s;
+  animation-delay: 0s; animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;}
 /*====== ROVER SPEECH ===========*/
 
@@ -197,15 +197,15 @@ z-index: 2;}
 
 
 .rovervoice {
-    font-family: "Walter Turncoat", sans-serif; 
+    font-family: "Walter Turncoat", sans-serif;
     font-size: 18px;
-    color: #EAEAEA; 
+    color: #EAEAEA;
     padding: 0 20px 0 50px;
     line-height: 22px;
   }
-.big { 
+.big {
     font-size: 23px;
-    color: #EAEAEA; 
+    color: #EAEAEA;
     padding: 20px 20px 15px 50px;
     line-height: 26px;}
 
@@ -215,11 +215,11 @@ z-index: 2;}
 /*====== SECTIONS / POSTS============*/
 
 td {padding: 0;}
-tr { 
+tr {
   vertical-align: top;
   height: 900px;
   border: 3px solid #b12;}
-.post { 
+.post {
   width: 1800px;
   padding-top: 500px;
   margin: 50px 500px;
@@ -259,7 +259,8 @@ tr {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .face.back {
   display: block;
@@ -416,5 +417,3 @@ tr {
 .r21-bg {background-image: url('../images/rocks/r21-bg.jpg');}
 
 .r21-text {padding: 20px 10px 0 20px; text-align: left;}
-
-
